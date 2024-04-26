@@ -1,6 +1,6 @@
 import 'package:moor/moor.dart';
 import 'package:moor_flutter/moor_flutter.dart';
-import 'package:my_books_fe/utils/string_list_converter';
+// import 'package:my_books_fe/utils/string_list_converter';
 
 @DataClassName('AudioBookEntity')
 class AudioBookDataset extends Table {
@@ -10,7 +10,7 @@ class AudioBookDataset extends Table {
   IntColumn get currentChapter => integer()();
   IntColumn get currentMinute => integer()();
   IntColumn get totalDuration => integer()();
-  TextColumn get audioFiles => text().map(const StringListConverter())();
+  // TextColumn get audioFiles => text().map(const StringListConverter())();
   TextColumn get coverImage => text()();
 }
 
