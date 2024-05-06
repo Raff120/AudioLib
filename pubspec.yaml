@@ -37,8 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.6
   google_fonts: ^6.2.1
   flutter_speed_dial: ^7.0.0
-  moor_flutter: ^4.1.0
-  moor: ^4.6.1+1
+  sqflite: any
+  path: any
 
 dev_dependencies:
   flutter_test:
